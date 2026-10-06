@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <body>
+    <!-- Används endast för att Netlify ska registrera formulären vid build. Visas aldrig för besökare. -->
+    <form name="ansokan" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="ansokan" />
+      <input name="bot-field" />
+      <select name="typ"><option value="polis">Polis</option></select>
+      <input name="karaktar" />
+      <input name="discord" />
+      <input name="alder" type="number" />
+      <input name="speltid" />
+      <textarea name="erfarenhet"></textarea>
+      <textarea name="motivering"></textarea>
+      <input type="checkbox" name="regler" value="ja" />
+    </form>
+    <form name="support" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="support" />
+      <input name="bot-field" />
+      <input name="namn" />
+      <input name="discord" />
+      <input name="epost" type="email" />
+      <select name="kategori"><option>Övrigt</option></select>
+      <textarea name="meddelande"></textarea>
+    </form>
+  </body>
+</html>

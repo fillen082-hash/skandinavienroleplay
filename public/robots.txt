@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zingy-cendol-dd0e81.netlify.app/sitemap.xml
